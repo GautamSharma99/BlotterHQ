@@ -1,0 +1,20 @@
+{
+  "crons": [
+    {
+      "path": "/api/cron/breach-reminder",
+      "schedule": "0 * * * *"
+    },
+    {
+      "path": "/api/cron/weekly-nudge",
+      "schedule": "0 14 * * 1"
+    },
+    {
+      "path": "/api/cron/archive-incidents",
+      "schedule": "0 3 * * *"
+    },
+    {
+      "path": "/api/cron/delete-expired",
+      "schedule": "0 4 * * *"
+    }
+  ]
+}
